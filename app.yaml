@@ -2,5 +2,9 @@ runtime: php55
 api_version: 1
 
 handlers:
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: static/\1
+  upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+
 - url: /.*
   script: index.php
