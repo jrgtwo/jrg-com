@@ -23,19 +23,18 @@
 
     <section id="introduction" class="body-section">
       <div class="section-container">
-        <h1>HI, I'm Jonathan</h1>
+        <h1>HI, I'm Jonathan Garcia</h1>
         <h2>I'm focused on making the web world better.  With javascript, html, and css, what isn't possible. After almost 10 years of experience in the field, I'm getting a firm grasp on possiblities and just like a kid would say, never say impossible.</h2>
-        <p>Web is my passion, HTML/CSS/Javascript are my tools. Using frameworks is fun, but architecting beautiful and original layouts is the best. </p>
-        <p>The best part of my craft is taking an amazing design and make it come alive.  To let others see what I see just looking at a static layout is all the gratification I need.</p>
+        <!--p>Web is my passion, HTML/CSS/Javascript are my tools. Using frameworks is fun, but architecting beautiful and original layouts is the best. </p>
+        <p>The best part of my craft is taking an amazing design and make it come alive.  To let others see what I see just looking at a static layout is all the gratification I need.</p-->
       </div>
     </section>
 
     <section id="about" class="body-section">
       <div class="section-container">
         <h2>What Am I Good At Anyways?!</h2>
-        <p>HTML/CSS use to be my bread and butter. Then carousels were where I dominated.  Nowadays, I'm am all about challenge. If I see something I've never done I need to figure it out.  Curiosity and passion are what have created who I am today</p>
         <p>It's not easy to tell yourself you don't know everything about your craft.  But the moment you do, it opens you up to all you have yet to learn.</p>
-        <p>In practice knowledge is nice but experience is king. Until you deal with it day in and day out, you don't know the additional thought process that goes into each new product or feature.  The obviousness and requirement of responsiveness all the time sometimes slips past the less experienced.  After almost 10 years of web focus, I'm always trying to break away from what is standard, but what is standard is what has made me who I am.</p>
+        <p>In practice, knowledge is nice but experience is king. Until you deal with something day in and day out, you don't know the additional thought process that goes into each new product or feature.  The obviousness and requirement of responsiveness slips past the less experienced.  After almost 10 years of web focus, I'm always trying to break away from what is standard, but what is standard is what has made me who I am.</p>
         <h3>What I Know And Use</h3>
         <ul>
           <li class="title">Scripting</li>
@@ -74,23 +73,23 @@
         <h2>Some Things I've Worked On</h2>
         <div id="portfolio-container">
           <div class="portfolio-item">
-            <a href="#" data-type="disney" class="main-image"><img src="images/logos/disney.jpg"/></a>
+            <div href="#" data-type="disney" class="main-image"><img src="images/logos/disney.jpg"/></div>
             <div class="portfolio-info">
               <h3>Disney Consumer Products &amp; Interactive Media</h3>
-              <p><i>Current Role:</i> Lead Developer in charge of technology decisions, code style, and dev tool creation.</p>
+              <p><i>Current Role:</i> Lead Developer in charge of technology decisions, code style, and dev tool creation for Disney Life.</p>
             </div>
           </div>
           <div class="portfolio-item">
-            <a href="#" data-type="nfl" class="main-image"><img src="images/logos/nfl.jpg"/></a>
+            <div href="#" data-type="nfl" class="main-image"><img src="images/logos/nfl.jpg"/></div>
             <div class="portfolio-info">
               <h3>National Football League</h3>
-              <p>Senior Front End Engineer, dealt with an ever evolving array of products and features.  Taking an updating from an outdated framework to make hight quality and visually stunning pieces.</p>
+              <p>Senior Front End Engineer, dealt with an ever evolving array of products and features.  Taking and updating an outdated Backend and Frontend framework to make high quality and visually stunning pieces.</p>
             </div>
           </div>
           <div class="portfolio-item">
-            <a href="#" data-type="mgm" class="main-image"><img src="images/logos/mgm.jpg"/></a>
+            <div href="#" data-type="mgm" class="main-image"><img src="images/logos/mgm.jpg"/></div>
             <div class="portfolio-info">
-              <h3>MetroGoldwyn-Mayer</h3>
+              <h3>Metro-Goldwyn-Mayer</h3>
               <p>Sole Front End Developer in charge of redesigns of both MGM.com and Stargate.MGM.com</p>
             </div>
           </div>
@@ -109,9 +108,9 @@
     <footer>
       <section class="menu">
         <ul>
-          <li><a href="#">about</a></li>
-          <li><a href="#">portfolio</a></li>
-          <li><a href="#">contact</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
         </ul>
       </section>
     </footer>
