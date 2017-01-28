@@ -1,0 +1,25 @@
+{
+  "name": "jrg-com",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrgtwo/jrg-com.git"
+  },
+  "author": "Jonathan Ray Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrgtwo/jrg-com/issues"
+  },
+  "homepage": "https://github.com/jrgtwo/jrg-com#readme"
+}

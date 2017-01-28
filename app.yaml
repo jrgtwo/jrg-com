@@ -2,9 +2,19 @@ runtime: php55
 api_version: 1
 
 handlers:
-- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+- url: /(.*\.(gif|jpeg|jpg|png))
   static_files: static/\1
-  upload: static/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  upload: static/(.*\.(gif|jpeg|jpg|png))
+  http_headers:
+    Access-Control-Allow-Origin: "*"
+
+- url: /js/(.*\.(js))
+  static_files: static/\1
+  upload: static/(.*\.(js))
+
+- url: /css/(.*\.(css))
+  static_files: static/\1
+  upload: static/(.*\.(css))
 
 - url: /.*
   script: index.php
