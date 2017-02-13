@@ -1,6 +1,10 @@
 runtime: php55
 api_version: 1
 
+
+builtins:
+- remote_api: on
+
 handlers:
 - url: /(.*\.(gif|jpeg|jpg|png))
   static_files: static/\1
@@ -14,6 +18,11 @@ handlers:
 - url: /js
   static_dir: js
 
+- url: /blog
+  script: blog.php
+
+- url: /blog/.*
+  script: blog.php
 
 - url: /.*
   script: index.php
