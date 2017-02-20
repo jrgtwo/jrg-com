@@ -1,0 +1,7 @@
+# Google credentials and configuration
+google_client_id:      108022479711670167975
+#google_client_secret:  YOUR_CLIENT_SECRET
+google_project_id:     jrg-com
+
+# options are "cloudsql", "mongodb", or "datastore"
+blog_backend: datastore

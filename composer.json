@@ -1,5 +1,10 @@
 {
     "require": {
-        "google/cloud": "^0.20.2"
+        "google/cloud": "^0.20.2",
+        "google/apiclient": "^2.0",
+        "tomwalder/php-gds": "v3.*"
+    },
+    "require-dev": {
+      "google/cloud-tools": "^0.6"
     }
 }
